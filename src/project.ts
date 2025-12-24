@@ -8,9 +8,11 @@ import s04_token_tax from './scenes/s04_token_tax_view?scene';
 import s04_b_deep_dive from './scenes/s04_b_deep_dive_view?scene';
 import s05_future_bytes from './scenes/s05_future_bytes_view?scene';
 import s02_deep_dive_view from './scenes/s02_deep_dive_view?scene';
+import example from './scenes/example?scene';
 
 export default makeProject({
   scenes: [
+    example,
     s01_strawberry,     // The Hook Animation
     s01_b_deep_dive,    // Technical Explanation
     s02_spectrum,  
